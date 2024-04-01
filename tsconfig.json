@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components": [
+        "./src/components/*"
+      ],
+      "@/lib/utils": [
+        "./src/lib/utils"
+      ]
+    },
+    // ...
+    "jsx": "react",
+    "types": ["cypress"]
+  },
+  "include": ["src", "cypress", "cypress.d.ts"]
+}
